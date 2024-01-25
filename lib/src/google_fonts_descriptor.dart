@@ -29,5 +29,5 @@ class GoogleFontsFile {
   final String expectedFileHash;
   final int expectedLength;
 
-  String get url => 'https://fonts.gstatic.com/s/a/$expectedFileHash.ttf';
+  String get url => 'https://proxy.fonts.gstatic.tigomoney.io/s/a/$expectedFileHash.ttf';
 }
